@@ -75,7 +75,7 @@ WARNING_BANDS = ["at risk", "at-risk", "warning"]
 CRITICAL_PROB = 0.65
 WARNING_PROB = 0.40
 
-INPUT_CSV = "scored_customers.csv"       # real Health Score model output
+INPUT_CSV = "https://github.com/melissamcgowan/Customer-Health-Score-Model/blob/main/scored_customers.csv"       # real Health Score model output
                                           # (from Customer-Health-Score-Model repo)
 OUTPUT_CSV = "save_plays_triggered.csv"
 OUTPUT_JSON = "save_plays_triggered.json"
