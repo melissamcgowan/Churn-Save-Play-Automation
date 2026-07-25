@@ -1,0 +1,94 @@
+account_id,account_name,plan_tier,csm_owner,health_score,prior_health_score,score_delta,top_risk_driver,trigger_reason,severity,csm_task,email_subject,email_body,triggered_at
+ACC-1007,Account 7,Enterprise,Marcus Webb,33,38,5,NPS response: detractor,Health score at 33 -- at or below the critical threshold (40).,critical,"[URGENT] Save-play needed: Account 7 (Enterprise)
+Reason: Health score at 33 -- at or below the critical threshold (40).
+Likely driver: NPS response: detractor
+Owner: Marcus Webb
+Action: Reach out within 24 hours; reference the save-play email already drafted below.","Checking in, Account 7 — want to make sure you're getting value","Hi {contact_first_name},
+
+I noticed some signals on our end (nps response: detractor) and wanted to reach out directly rather than let it go unaddressed.
+
+Do you have 15 minutes this week? I'd like to understand what's changed and see if there's something we can fix or adjust on our side.
+
+— Marcus Webb",2026-07-25T01:43:32
+ACC-1012,Account 12,Mid-Market,Priya Nair,42,64,22,Feature adoption stalled since renewal,"Health score fell 22 points since the last run (64 -> 42) -- fast-drop trigger, independent of absolute score.",fast_drop,"[URGENT] Save-play needed: Account 12 (Mid-Market)
+Reason: Health score fell 22 points since the last run (64 -> 42) -- fast-drop trigger, independent of absolute score.
+Likely driver: Feature adoption stalled since renewal
+Owner: Priya Nair
+Action: Reach out within 24 hours; reference the save-play email already drafted below.","Checking in, Account 12 — want to make sure you're getting value","Hi {contact_first_name},
+
+I noticed some signals on our end (feature adoption stalled since renewal) and wanted to reach out directly rather than let it go unaddressed.
+
+Do you have 15 minutes this week? I'd like to understand what's changed and see if there's something we can fix or adjust on our side.
+
+— Priya Nair",2026-07-25T01:43:32
+ACC-1017,Account 17,Enterprise,Dana Reyes,48,66,18,Seats unused > 60 days,"Health score fell 18 points since the last run (66 -> 48) -- fast-drop trigger, independent of absolute score.",fast_drop,"[URGENT] Save-play needed: Account 17 (Enterprise)
+Reason: Health score fell 18 points since the last run (66 -> 48) -- fast-drop trigger, independent of absolute score.
+Likely driver: Seats unused > 60 days
+Owner: Dana Reyes
+Action: Reach out within 24 hours; reference the save-play email already drafted below.","Checking in, Account 17 — want to make sure you're getting value","Hi {contact_first_name},
+
+I noticed some signals on our end (seats unused > 60 days) and wanted to reach out directly rather than let it go unaddressed.
+
+Do you have 15 minutes this week? I'd like to understand what's changed and see if there's something we can fix or adjust on our side.
+
+— Dana Reyes",2026-07-25T01:43:32
+ACC-1016,Account 16,Enterprise,Priya Nair,49,67,18,Key contact left the account,"Health score fell 18 points since the last run (67 -> 49) -- fast-drop trigger, independent of absolute score.",fast_drop,"[URGENT] Save-play needed: Account 16 (Enterprise)
+Reason: Health score fell 18 points since the last run (67 -> 49) -- fast-drop trigger, independent of absolute score.
+Likely driver: Key contact left the account
+Owner: Priya Nair
+Action: Reach out within 24 hours; reference the save-play email already drafted below.","Checking in, Account 16 — want to make sure you're getting value","Hi {contact_first_name},
+
+I noticed some signals on our end (key contact left the account) and wanted to reach out directly rather than let it go unaddressed.
+
+Do you have 15 minutes this week? I'd like to understand what's changed and see if there's something we can fix or adjust on our side.
+
+— Priya Nair",2026-07-25T01:43:32
+ACC-1005,Account 5,Enterprise,Dana Reyes,52,70,18,Feature adoption stalled since renewal,"Health score fell 18 points since the last run (70 -> 52) -- fast-drop trigger, independent of absolute score.",fast_drop,"[URGENT] Save-play needed: Account 5 (Enterprise)
+Reason: Health score fell 18 points since the last run (70 -> 52) -- fast-drop trigger, independent of absolute score.
+Likely driver: Feature adoption stalled since renewal
+Owner: Dana Reyes
+Action: Reach out within 24 hours; reference the save-play email already drafted below.","Checking in, Account 5 — want to make sure you're getting value","Hi {contact_first_name},
+
+I noticed some signals on our end (feature adoption stalled since renewal) and wanted to reach out directly rather than let it go unaddressed.
+
+Do you have 15 minutes this week? I'd like to understand what's changed and see if there's something we can fix or adjust on our side.
+
+— Dana Reyes",2026-07-25T01:43:32
+ACC-1015,Account 15,Mid-Market,Dana Reyes,59,81,22,Support ticket spike (3x baseline),"Health score fell 22 points since the last run (81 -> 59) -- fast-drop trigger, independent of absolute score.",fast_drop,"[URGENT] Save-play needed: Account 15 (Mid-Market)
+Reason: Health score fell 22 points since the last run (81 -> 59) -- fast-drop trigger, independent of absolute score.
+Likely driver: Support ticket spike (3x baseline)
+Owner: Dana Reyes
+Action: Reach out within 24 hours; reference the save-play email already drafted below.","Checking in, Account 15 — want to make sure you're getting value","Hi {contact_first_name},
+
+I noticed some signals on our end (support ticket spike (3x baseline)) and wanted to reach out directly rather than let it go unaddressed.
+
+Do you have 15 minutes this week? I'd like to understand what's changed and see if there's something we can fix or adjust on our side.
+
+— Dana Reyes",2026-07-25T01:43:32
+ACC-1010,Account 10,SMB,Dana Reyes,41,41,0,No significant drivers,Health score at 41 -- inside the elevated-risk band (55 or below).,warning,"[Review] Save-play needed: Account 10 (SMB)
+Reason: Health score at 41 -- inside the elevated-risk band (55 or below).
+Likely driver: No significant drivers
+Owner: Dana Reyes
+Action: Reach out within 3 business days; reference the save-play email already drafted below.","A few things that might help, Account 10","Hi {contact_first_name},
+
+Wanted to flag no significant drivers — nothing urgent, but worth a look. Happy to share a quick tip or hop on a call if useful.
+
+— Dana Reyes",2026-07-25T01:43:32
+ACC-1018,Account 18,SMB,Tom Ashford,44,56,12,"Contract renewal in 30 days, usage flat",Health score at 44 -- inside the elevated-risk band (55 or below).,warning,"[Review] Save-play needed: Account 18 (SMB)
+Reason: Health score at 44 -- inside the elevated-risk band (55 or below).
+Likely driver: Contract renewal in 30 days, usage flat
+Owner: Tom Ashford
+Action: Reach out within 3 business days; reference the save-play email already drafted below.","A few things that might help, Account 18","Hi {contact_first_name},
+
+Wanted to flag contract renewal in 30 days, usage flat — nothing urgent, but worth a look. Happy to share a quick tip or hop on a call if useful.
+
+— Tom Ashford",2026-07-25T01:43:32
+ACC-1001,Account 1,Mid-Market,Dana Reyes,52,55,3,Support ticket spike (3x baseline),Health score at 52 -- inside the elevated-risk band (55 or below).,warning,"[Review] Save-play needed: Account 1 (Mid-Market)
+Reason: Health score at 52 -- inside the elevated-risk band (55 or below).
+Likely driver: Support ticket spike (3x baseline)
+Owner: Dana Reyes
+Action: Reach out within 3 business days; reference the save-play email already drafted below.","A few things that might help, Account 1","Hi {contact_first_name},
+
+Wanted to flag support ticket spike (3x baseline) — nothing urgent, but worth a look. Happy to share a quick tip or hop on a call if useful.
+
+— Dana Reyes",2026-07-25T01:43:32
