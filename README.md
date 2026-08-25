@@ -1,24 +1,24 @@
 # Churn Save-Play Automation
 
-Watches account health scores from the [Customer Health Score & Churn Prediction Model](../customer-health-score-churn-model) and automatically triggers a save-play the moment an account crosses into risk — no manual monitoring required.
+Watches account health scores from the [Customer Health Score & Churn Prediction Model](../customer-health-score-churn-model) and automatically triggers a save-play the moment an account crosses into risk; no manual monitoring required.
 
 ## What it does
 
 Reads the health score model's scored output and, for each active (non-churned) account, checks two independent signals:
 
-- **`health_band`** — the model's own categorical risk label (matched against configurable `CRITICAL_BANDS` / `WARNING_BANDS`)
-- **`churn_probability`** — a numeric cutoff that fires even if the band label hasn't caught up, so a probability spike isn't missed just because it wasn't accompanied by a big score movement
+- **`health_band`** - the model's own categorical risk label (matched against configurable `CRITICAL_BANDS` / `WARNING_BANDS`)
+- **`churn_probability`** - a numeric cutoff that fires even if the band label hasn't caught up, so a probability spike isn't missed just because it wasn't accompanied by a big score movement
 
-Either signal alone is enough to trigger — an account doesn't need to fail both.
+Either signal alone is enough to trigger. An account doesn't need to fail both.
 
 Any account that trips a trigger gets two automated outputs generated together:
 
 1. **An internal task/alert** — urgency-tagged, with the reasoning attached (which signal tripped, at what value) and the account's ARR, so the team can see revenue at risk at a glance
 2. **A save-sequence email draft** — ready to personalize and send, tone-matched to severity
 
-Output is written to `save_plays_triggered.csv` and `.json`, sorted by severity, then by ARR descending — the biggest revenue at risk surfaces first.
+Output is written to `save_plays_triggered.csv` and `.json`, sorted by severity, then by ARR descending; the biggest revenue at risk surfaces first.
 
-Already-churned accounts (`churned = true`) are excluded — there's nothing left to save. That's a separate win-back motion, already on the roadmap as its own project.
+Already-churned accounts (`churned = true`) are excluded; there's nothing left to save. That's a separate win-back motion, already on the roadmap as its own project.
 
 ## Input schema
 
