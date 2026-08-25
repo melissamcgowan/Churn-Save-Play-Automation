@@ -13,8 +13,8 @@ Either signal alone is enough to trigger. An account doesn't need to fail both.
 
 Any account that trips a trigger gets two automated outputs generated together:
 
-1. **An internal task/alert** — urgency-tagged, with the reasoning attached (which signal tripped, at what value) and the account's ARR, so the team can see revenue at risk at a glance
-2. **A save-sequence email draft** — ready to personalize and send, tone-matched to severity
+1. **An internal task/alert** - urgency-tagged, with the reasoning attached (which signal tripped, at what value) and the account's ARR, so the team can see revenue at risk at a glance
+2. **A save-sequence email draft** - ready to personalize and send, tone-matched to severity
 
 Output is written to `save_plays_triggered.csv` and `.json`, sorted by severity, then by ARR descending; the biggest revenue at risk surfaces first.
 
